@@ -1,0 +1,75 @@
+html {
+    font-family: 'Kalam', cursive;
+    background: url(../img/backGround.jpg);
+	position: cover;
+  	width: 100%;
+	height: 450px;
+  	top:0;
+  	left:0;
+  	z-index: -1
+}
+ul {
+    width: 500px;
+    height: 500px;
+}
+#table {
+    
+    margin: 0 auto;
+    
+    
+}
+
+#title, #welcomeLine {
+    text-align: center;
+    
+}
+#table li {
+    display: block;
+    list-style: none;
+    float: left;
+    border: solid 1px #2077bd;
+    height: calc(33.3% - 8px);
+    width: calc(33.3% - 8px);
+    position: relative;
+    font-size: 150px;
+    text-align: center;
+    background-color: #fafafa;
+}
+#table li:hover {
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+#playButton {
+    
+    visibility: hidden
+}
+#mainMenu {
+    visibility: hidden
+}
+#showResults {
+    visibility: hidden
+}
+.buttons {
+    position: auto;
+    font-size: 15px;
+    background-color: #adadad;
+    border: none;
+    width: 15%;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 16px;
+    cursor: pointer;
+}
+.buttons:hover {
+    background-color: #e40000;
+    color: white;
+}
+
+#buttons{
+	margin-top: 10px;
+	text-align: center;
+}
+#tablediv {
+    text-align: center;
+    
+}
